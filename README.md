@@ -26,7 +26,7 @@ provides a simple, reliable CLI interface for managing that data.
 
 ## Tech Stack
 
-- Python 3.11
+- Python 3.13.7
 - JSON for data persistence
 - pytest for testing
 
@@ -35,10 +35,10 @@ provides a simple, reliable CLI interface for managing that data.
 ## Project Structure
 grade_tracker/
 │
-├── grade_tracker.py # Main GradeTracker class and CLI logic
-├── test_grade_tracker.py # pytest test suite
-├── students.json # Auto-generated data file on first save
-|── README.md # Project documentation
+├── grade_tracker.py 
+├── test_grade_tracker.py 
+├── students.json 
+|── README.md 
 
 ---
 
